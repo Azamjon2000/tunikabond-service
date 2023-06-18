@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tunikabond service</title>
+    <link rel="icon" href="/images/logo-header.jpg" />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/style.scss" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="./images/logo-header.jpg" alt="" class="logo-header" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">Bosh qism</a>
+        <a href="#about">Biz haqimizda</a>
+        <a href="#services">xizmatlar</a>
+        <a href="#projects">loyihalar</a>
+        <a href="#contact">Aloqa</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="info-btn" class="fas fa-info-circle"></div>
+        <div id="search-btn" style="display: none"></div>
+        <div id="login-btn" style="display: none"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          placeholder="search here..."
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+          <a href="#">forgot password?</a>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+        <p>don't have an account <a href="#">create one!</a></p>
+      </form>
+    </header>
+
+    <div class="contact-info">
+      <div id="close-contact-info" class="fas fa-times"></div>
+
+      <div class="info">
+        <a href="tell: +998931025949">
+          <i class="fas fa-phone"> </i>
+        </a>
+        <h3>
+          Telefon nomer: <br />
+          <a href="tell: +998931025949">+998931025949</a>
+          <br />
+          <a href="tell: +998906201909">+998906201909</a>
+        </h3>
+      </div>
+
+      <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h3>E-pochta manzili</h3>
+        <p>azamjonoktamov1@gmail.com</p>
+      </div>
+
+      <div class="share">
+        <a
+          href="https://www.instagram.com/tunikabond_servis?igshid=ZDc4ODBmNjlmNQ=="
+          class="fab fa-instagram"
+        ></a>
+        <a
+          href="https://www.youtube.com/@tunikabondservisNAVOIY"
+          class="fab fa-youtube"
+        ></a>
+        <a href="#" class="fab fa-telegram"></a>
+      </div>
+    </div>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper1">
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-1.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Biz eng yaxshi xizmatni taqdim etamiz</h3>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading">Biz haqimizda</h1>
+
+      <div class="row">
+        <div class="video">
+          <iframe
+            style="width: 500px; height: 300px"
+            src="https://www.youtube.com/embed/36-x8FcC6aQ"
+            title="‼️🔝TUNIKAFON  YANGI DIZAYINDA 🔝‼️👉 #NAVOIY #QIZILTEPA  📞+998931025949  +998906201909"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="content">
+          <h3>Biz Sizga Orzu Qilgan Eng Yaxshi Ishni Taqdim Etamiz!</h3>
+          <a href="#services" class="btn">ko'proq o'qish</a>
+        </div>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <h3>10+</h3>
+          <p>yillik tajriba</p>
+        </div>
+
+        <div class="box">
+          <h3>1000+</h3>
+          <p>loyiha yakunlandi</p>
+        </div>
+
+        <div class="box">
+          <h3>125+</h3>
+          <p>Qoniqarli mijozlar</p>
+        </div>
+
+        <div class="box">
+          <h3>11+</h3>
+          <p>faol ishchilar</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">Bizning xizmatlar</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/service-1.png" alt="" />
+          <h3>Bino Qurilishi</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+            necessitatibus.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-2.png" alt="" />
+          <h3>Uyni Ta'mirlash</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+            necessitatibus.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-5.png" alt="" />
+          <h3>Qurilish Bo'yicha Maslahatchi</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+            necessitatibus.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-6.png" alt="" />
+          <h3>Tashqi dizayn</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+            necessitatibus.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-7.png" alt="" />
+          <h3>Binoga Texnik Xizmat Ko'rsatish</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+            necessitatibus.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-8.png" alt="" />
+          <h3>Binoni Ta'mirlash</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+            necessitatibus.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-9.png" alt="" />
+          <h3>Havo quvurlari</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+            necessitatibus.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- projects section starts  -->
+
+    <section class="projects" id="projects">
+      <h1 class="heading">Bizning loyihalar</h1>
+
+      <div class="box-container">
+        <a href="images/project-1.jpg" class="box">
+          <div class="image">
+            <img src="images/project-1.jpg" alt="" />
+          </div>
+        </a>
+
+        <a href="images/project-2.jpg" class="box">
+          <div class="image">
+            <img src="images/project-2.jpg" alt="" />
+          </div>
+        </a>
+
+        <a href="images/project-3.jpg" class="box">
+          <div class="image">
+            <img src="images/project-3.jpg" alt="" />
+          </div>
+        </a>
+
+        <a href="images/project-4.jpg" class="box">
+          <div class="image">
+            <img src="images/project-4.jpg" alt="" />
+          </div>
+        </a>
+
+        <a href="images/project-5.jpg" class="box">
+          <div class="image">
+            <img src="images/project-5.jpg" alt="" />
+          </div>
+        </a>
+
+        <a href="images/project-6.jpg" class="box">
+          <div class="image">
+            <img src="images/project-6.jpg" alt="" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- projects section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">Aloqa</h1>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923.6169827740389!2d64.79741574177503!3d40.058795043899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5041f9aef3a0d7%3A0x16817cec9629aac8!2sTunikabont%20servis!5e1!3m2!1sru!2s!4v1686856848676!5m2!1sru!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <h3>Biz bilan bog'lanish</h3>
+          <h4 class="box">"A'zamjon qurilish servis" MCHJ</h4>
+          <h4 class="box">azamjonoktamov1@gmail.com</h4>
+          <h4 class="box">
+            Telefon nomer: <br />
+            <a href="tell: +998931025949">+998931025949</a>
+            <br />
+            <a href="tell: +998906201909">+998906201909</a>
+          </h4>
+          <input type="submit" value="send message" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- blogs section starts  -->
+
+    <!-- <section class="blogs" id="blogs">
+      <h1 class="heading">our blogs</h1>
+
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- blogs section ends -->
+
+    <!-- client logo section starts -->
+
+    <section class="logo-container">
+      <h1 class="heading">Hamkorlar</h1>
+      <div class="swiper logo-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img
+              src="images/client-logo-1.jpeg"
+              width="150"
+              height="75"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-2.svg" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img
+              src="images/client-logo-3.png"
+              width="150"
+              height="75"
+              style="object-fit: contain"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide slide">
+            <img
+              src="images/client-logo-4.jpg"
+              width="150"
+              height="75"
+              style="object-fit: contain"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide slide">
+            <img
+              src="images/client-logo-5.png"
+              width="150"
+              height="75"
+              style="object-fit: contain"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- client logo section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="credit">
+        created by &copy; 16.06.2023
+        <a href="t.me/Ulugbekuktamov1"><span>Ulugbek Uktamov</span></a> | all
+        rights reserved!
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".projects .box-container"));
+    </script>
+  </body>
+</html>
